@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="head.css">
+        <link rel="icon" type="image/ico" href="data:image/ico;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAP/uAAAV/wD/yAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAESIiIiAAACIREiIiAAAAIjERIiAAIgAiMxESIAIiACIAMREiIiIAIgAzEAMzMgAiADMwADMyACIAMzIAEgAAAAAzMyABAAAAAAAAMgASIiIAAAADIAEiIgAzMiMiARIiADMyIiIhESIAMzMiIjMREgAAADMzMzERAAAAAAMzMxEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+        <title>FNJS Top 10</title>
+        <script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }    
+</script>
+    </head>
+    <body>
+        <strong>
+        <h1>Top Animes</h1>
+      <div class="wrapper" style="float:right; position:relative; top: 0px;">
+    <select name="list" id="list" accesskey="target">
+    <option value='none' selected>Choose a page and press Go</option>
+    <option value="index.html">Home</option>
+    <option value="Games.html">Top Games</option>
+    <option vaiue="Animes.html">(You are here) Top Animes</option>
+    <option>There will be more soon</option>
+<select>
+<input type=button value="Go" onclick="goToNewPage()" />
+        </select>
+    </div>  
+         </strong> 
+    
+    </body>
+</html>

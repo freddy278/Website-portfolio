@@ -1,0 +1,48 @@
+    a:link {
+    color:#0000ff;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#0000ff;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+    
+
+img{height:150px;transition: 1s all ease}
+img:hover{height:200px}    
+
+.Navbar{font-size: 30px; transition: 1s all ease} 
+.Navbar:hover{font-size: 45px}    
+.wrapper > * {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+}  
+body  {
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSt7MbbU-HDxEXRe6-p77ihpTuwb25kdQuPhOPc8BoxMbftJNya");
+    background-color: #cccccc;
+    color:white
+}
+
+@-webkit-keyframes differing{
+    0%{background-color: red;}
+    50%{background-color: blue;}
+    100%{background-color:red;}
+}
+
+h1{
+    background-color:red;
+    animation: differing 5s infinite; 
+}
